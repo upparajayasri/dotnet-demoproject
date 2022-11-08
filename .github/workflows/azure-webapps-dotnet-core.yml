@@ -66,6 +66,7 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.DOTNET_DEMOPROJECT_PUBLISHPROFIL }}
+<<<<<<< HEAD
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   deploy_test:
@@ -89,4 +90,6 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.DOTNET_DEMOPROJECT_PUBLISHPROFIL }}
+=======
+>>>>>>> c5b214c460b6b510114ce0a8da5b130e90b18fbc
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
